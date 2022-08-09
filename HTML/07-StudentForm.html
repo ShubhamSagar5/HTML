@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <h2>Student Registration Form</h2>
+
+    <form action="/demo">
+        <label for="stuname">First Name: </label>
+        <input type="text" name="name" id="fname">
+        <br>
+        <br>
+        <label>Middle Name:
+            <input type="text" name="name" id="mname">
+        </label>
+        <br>
+        <br>
+        <label for="lname">Last Name: </label>
+        <input type="text" name="name" id="lname">
+        <br>
+        <br>
+        <label for="pno">Phone No: </label>
+        <input type="number" name="no" id="pno" placeholder="+919876543210">
+        <br>
+        <br>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" placeholder="sample123@gmail.com">
+        <br>
+        <br>
+        <label for="gender">Gender: </label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <br>
+        <br>
+        <label>Date of Birth:
+            <input type="date" name="dob">
+        </label>
+        <br>
+        <br>
+        <label>Address:
+            <input type="text" name="address" placeholder="Houseno--Street--landmark--pincode-- ">
+        </label>
+        <br>
+        <br>
+        <label>Blood Group: </label>
+        <select name="bgroup" id="bloodgroup">
+            <option value="select">select </option>
+            <option value="a+">A+</option>
+            <option value="b+">B+</option>
+            <option value="ab+">AB+</option>
+            <option value="o+">O+</option>
+            <option value="a-">A-</option>
+            <option value="b-">B-</option>
+            <option value="ab-">AB-</option>
+            <option value="o-">O-</option>
+        </select>
+        <br>
+        <br>
+        <label>Department:
+            <input type="radio" name="dept" value="CSE">CSE
+            <input type="radio" name="dept" value="IT">IT
+            <input type="radio" name="dept" value="Mech">Mech
+            <input type="radio" name="dept" value="Civil">Civil
+            <input type="radio" name="dept" value="Electrical">Electrical
+
+        </label>
+        <br>
+        <br>
+        <label>Courses:
+            <input type="checkbox" name="cour" value="Java">JavaFullStack
+            <input type="checkbox" name="cour" value="Meran">Mean/MernFullStack
+            <input type="checkbox" name="cour" value="python">PythonFullStack
+            <input type="checkbox" name="cour" value="dsci">DataScience
+        </label>
+        <br>
+        <br>
+        <label>FeedBack:
+            <textarea name="feeb" cols="30" rows="2" placeholder="Amit sir you are best teacher.your way of teaching is awesome.you are not a teacher to me you are also an inspiration.lucky to have as a guide."></textarea>
+        </label>
+        <br>
+        <br>
+
+        <button type="submit">submit</button> <button type="reset">reset</button>
+
+
+    </form>
+</body>
+
+</html>
